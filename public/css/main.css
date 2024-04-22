@@ -1,0 +1,230 @@
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #fff 60%, #ffae18 40%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+ 
+}
+
+.backgroundHeader{
+  background: #f4bb53;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+
+.customWrapper {
+  
+  margin: 0 auto;
+  width: 100%;
+ 
+}
+
+/* custom class to turnoff the banner on the breakpoint */
+
+.custom-class  {
+  padding-top: 50px;
+  height: 100%;
+  width: 90%;
+  padding-left: 30px;
+}
+
+/* custom class to turnoff the banner on the breakpoint */
+
+
+
+.justify-content{
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+
+
+
+
+/* sizes for (icons, fonts) start */
+.fs-2 {
+  font-family: "Montserrat", sans-serif;
+  
+  
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.pawSize {
+  height: 60px;
+  width: 60px;
+  padding-left: 10px;
+}
+
+.logoutCustom{
+  background: #ffae18;
+}
+
+/* sizes for (icons, fonts) end */
+
+
+
+
+
+
+
+
+/* media breakpoints start */
+
+@media (max-width: 920px) {
+  .custom-class {
+    display: none;
+  }
+
+  body {
+    background: white;
+  }
+
+  .logoutCustom{
+    background: white;
+  }
+
+  .center {
+    margin: 0 auto;
+    
+  }
+
+  .justify-center{
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  
+  .decreaseSizeTitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    
+ 
+    
+  }
+
+  .backgroundHeader{
+    background: white;
+  }
+ 
+}
+
+/* media breakpoints end */
+
+
+
+
+
+
+
+
+
+/* the space between inputs start */
+
+.form-control {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  
+}
+
+/* the space between inputs end */
+
+
+
+
+/* classes for genders start*/
+
+.genders {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.male-color{
+  background: #7fa0de !important ; 
+}
+.male {
+  /* background: #7fa0de; */
+  border-radius: 10px;
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.female{
+  /* background: #db9feb; */
+  border-radius: 10px;
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.female-color{
+  background: #db9feb!important ;
+}
+
+.active{
+  background: grey;
+  border-radius: 10px;
+  width: 70px;
+  height: 70px;
+}
+
+.fas {
+  font-size: 2em;
+  color: white;
+}
+
+
+
+
+/* classes for genders end*/
+
+
+
+
+
+/* social media contacts start */
+
+
+.socialMeadia{
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+.fa-brands {
+  font-size: 4em;
+  
+}
+
+
+/* social media contacts ed */
+
